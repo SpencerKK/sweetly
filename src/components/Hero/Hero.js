@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="hero-wrapper">
             <div 
                 className="lax-img"
-                style={{ backgroundSize: `${80 + ( scrollPos / 5 ) }em` }}
+                style={{ backgroundSize: `${80 + ( scrollPos / 25 ) }em` }}
             >
             </div>
         </div>
