@@ -1,0 +1,57 @@
+.navbar-wrapper {
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    margin: 1em;
+}
+
+.navbar-content {
+    line-height: 1.4;
+}
+
+.navbar-content .navbar-btn {
+    display: none;
+}
+
+
+.navbar-icon:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+
+/* List */
+
+.navbar-ul li {
+    list-style-type: none;
+    display: inline;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 0 1em;
+}
+
+.navbar-ul li a {
+    color: #fff;
+    transition: color 1s;
+    text-decoration: none;
+    background-color: transparent !important;
+    outline: none;
+}
+
+.navbar-ul li a:focus,
+.navbar-ul li a:hover {
+    background-color: transparent !important;
+    background: none;
+}
+
+.navbar-ul {
+    margin-left: 1em;
+    height: 0;
+    transition: height 1s;
+}
+
+.navbar-btn:checked ~ .navbar-ul,
+.navbar-btn:checked ~ .navbar-ul li a   {
+    /* max-height: 240px; */
+    height: 1em;
+    color: #000;
+}
